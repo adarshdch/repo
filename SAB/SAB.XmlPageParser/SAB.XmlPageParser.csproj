@@ -39,6 +39,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Helper\VariableParser.cs" />
     <Compile Include="PageParser.cs" />
     <Compile Include="PageParserRequest.cs" />
     <Compile Include="PageParserResponse.cs" />

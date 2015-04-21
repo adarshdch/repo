@@ -1,9 +1,11 @@
 ﻿
 
+using System.Xml.Linq;
+
 namespace SAB.XmlPageParser
 {
 	public class PageParserResponse
 	{
-		public string Response { get; set; }
+		public XDocument Response { get; set; }
 	}
 }

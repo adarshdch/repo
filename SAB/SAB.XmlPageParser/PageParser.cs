@@ -1,5 +1,7 @@
 ﻿
 
+using SAB.XmlPageParser.Helper;
+
 namespace SAB.XmlPageParser
 {
 	public class PageParser
@@ -8,8 +10,10 @@ namespace SAB.XmlPageParser
 		{
 			var aResponse = new PageParserResponse()
 			{
-				Response = theRequest.PageXml
+				Response = theRequest.PageXDocument
 			};
+
+			VariableParser.Parse(theRequest, aResponse);
 
 
 			return aResponse;

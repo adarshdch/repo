@@ -15,7 +15,7 @@ namespace SAB.XmlPageParserTest
 			var aParse = new PageParser();
 			var aRequest = new PageParserRequest()
 			{
-				PageXml = File.ReadAllText(@"C:\D\Git\repo\static\pages\master\Form.xml")
+				PageXDocument = File.ReadAllText(@"C:\D\Git\repo\static\pages\master\Form.xml")
 			};
 			var aResponse = aParse.Parse(aRequest);
 
