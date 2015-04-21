@@ -1,8 +1,8 @@
 ﻿<Form>
 	<Variables> <!-- Source can be request|query -->
-		<Variable key="id" source="" />
+		<Variable key="gid" source="param" />
 	</Variables>
-	<HtmlForm> <!-- It contains fields, fieldset -->
+	<HtmlForm selectquery="" updatequery="" deletequery="" > <!-- It contains fields, fieldset -->
 		
 	</HtmlForm>
 </Form>

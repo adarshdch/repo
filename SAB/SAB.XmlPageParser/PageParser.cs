@@ -1,5 +1,6 @@
 ﻿
 
+using System.Xml.Linq;
 using SAB.XmlPageParser.Helper;
 
 namespace SAB.XmlPageParser
@@ -10,7 +11,7 @@ namespace SAB.XmlPageParser
 		{
 			var aResponse = new PageParserResponse()
 			{
-				Response = theRequest.PageXDocument
+				PageXDocument = XDocument.Parse(theRequest.PageXDocument, LoadOptions.None)
 			};
 
 			VariableParser.Parse(theRequest, aResponse);

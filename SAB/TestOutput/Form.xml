@@ -1,8 +1,9 @@
 <Form>
-	<Variables> <!-- Source can be request|query -->
-		<Variable key="id" source="" />
-	</Variables>
-	<HtmlForm> <!-- It contains fields, fieldset -->
-		
-	</HtmlForm>
+  <Variables>
+    <!-- Source can be request|query -->
+    <Variable key="gid" source="param" value="form" />
+  </Variables>
+  <HtmlForm>
+    <!-- It contains fields, fieldset -->
+  </HtmlForm>
 </Form>

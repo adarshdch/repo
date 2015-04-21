@@ -6,6 +6,6 @@ namespace SAB.XmlPageParser
 {
 	public class PageParserResponse
 	{
-		public XDocument Response { get; set; }
+		public XDocument PageXDocument { get; set; }
 	}
 }

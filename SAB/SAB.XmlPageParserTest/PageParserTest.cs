@@ -17,9 +17,10 @@ namespace SAB.XmlPageParserTest
 			{
 				PageXDocument = File.ReadAllText(@"C:\D\Git\repo\static\pages\master\Form.xml")
 			};
+			aRequest.Params["gid"] = "form";
 			var aResponse = aParse.Parse(aRequest);
 
-			File.WriteAllText(Path.Combine(UtilPath.TestOutputDirectory, "Form.xml"), aResponse.Response);
+			File.WriteAllText(Path.Combine(UtilPath.TestOutputDirectory, "Form.xml"), aResponse.PageXDocument.ToString());
 		}
 	}
 }
