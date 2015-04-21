@@ -1,0 +1,72 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAB.XmlPageParser", "SAB.XmlPageParser\SAB.XmlPageParser.csproj", "{26F1806B-BBF8-45D6-847D-01858CF09808}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "js", "http://localhost/js", "{35A5694F-EFA4-40CF-86A8-C82EFCF3FC63}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "false"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/js"
+		Debug.AspNetCompiler.PhysicalPath = "..\js\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\js\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/js"
+		Release.AspNetCompiler.PhysicalPath = "..\js\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\js\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "..\js\"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "static", "http://localhost/static", "{B0FF6414-103B-42D5-B7D3-B3AAEC39F5F9}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "false"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/static"
+		Debug.AspNetCompiler.PhysicalPath = "..\static\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\static\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/static"
+		Release.AspNetCompiler.PhysicalPath = "..\static\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\static\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "..\static\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{26F1806B-BBF8-45D6-847D-01858CF09808}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26F1806B-BBF8-45D6-847D-01858CF09808}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26F1806B-BBF8-45D6-847D-01858CF09808}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26F1806B-BBF8-45D6-847D-01858CF09808}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35A5694F-EFA4-40CF-86A8-C82EFCF3FC63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35A5694F-EFA4-40CF-86A8-C82EFCF3FC63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35A5694F-EFA4-40CF-86A8-C82EFCF3FC63}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{35A5694F-EFA4-40CF-86A8-C82EFCF3FC63}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{B0FF6414-103B-42D5-B7D3-B3AAEC39F5F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0FF6414-103B-42D5-B7D3-B3AAEC39F5F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0FF6414-103B-42D5-B7D3-B3AAEC39F5F9}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0FF6414-103B-42D5-B7D3-B3AAEC39F5F9}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
