@@ -47,6 +47,10 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "static", "http://localhost/
 		SlnRelativePath = "..\static\"
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAB.XmlPageParserTest", "SAB.XmlPageParserTest\SAB.XmlPageParserTest.csproj", "{7F259065-4404-46FF-940D-133D6DB6AC27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAB.Utility", "SAB.Utility\SAB.Utility.csproj", "{094C73F4-14F2-4522-82CB-AB4D0AAEB0EF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -65,6 +69,14 @@ Global
 		{B0FF6414-103B-42D5-B7D3-B3AAEC39F5F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B0FF6414-103B-42D5-B7D3-B3AAEC39F5F9}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{B0FF6414-103B-42D5-B7D3-B3AAEC39F5F9}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{7F259065-4404-46FF-940D-133D6DB6AC27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F259065-4404-46FF-940D-133D6DB6AC27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F259065-4404-46FF-940D-133D6DB6AC27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F259065-4404-46FF-940D-133D6DB6AC27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{094C73F4-14F2-4522-82CB-AB4D0AAEB0EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{094C73F4-14F2-4522-82CB-AB4D0AAEB0EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{094C73F4-14F2-4522-82CB-AB4D0AAEB0EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{094C73F4-14F2-4522-82CB-AB4D0AAEB0EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
