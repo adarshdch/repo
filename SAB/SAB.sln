@@ -51,6 +51,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAB.XmlPageParserTest", "SA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAB.Utility", "SAB.Utility\SAB.Utility.csproj", "{094C73F4-14F2-4522-82CB-AB4D0AAEB0EF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAB.DAL", "SAB.DAL\SAB.DAL.csproj", "{A56823CC-D632-4D45-8956-6D2DD7EBDC74}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -77,6 +79,10 @@ Global
 		{094C73F4-14F2-4522-82CB-AB4D0AAEB0EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{094C73F4-14F2-4522-82CB-AB4D0AAEB0EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{094C73F4-14F2-4522-82CB-AB4D0AAEB0EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A56823CC-D632-4D45-8956-6D2DD7EBDC74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A56823CC-D632-4D45-8956-6D2DD7EBDC74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A56823CC-D632-4D45-8956-6D2DD7EBDC74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A56823CC-D632-4D45-8956-6D2DD7EBDC74}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
