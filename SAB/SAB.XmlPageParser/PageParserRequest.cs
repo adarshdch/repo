@@ -13,6 +13,10 @@ namespace SAB.XmlPageParser
 
 		public string PageXDocument { get; set; }
 
+		public string OrgCode { get; set; }
+
+		public ExecutionStep Step { get; set; }
+
 		public NameValueCollection Params { get; set; }
 
 	}

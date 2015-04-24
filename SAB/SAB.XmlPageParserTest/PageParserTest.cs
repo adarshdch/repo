@@ -15,6 +15,8 @@ namespace SAB.XmlPageParserTest
 			var aParse = new PageParser();
 			var aRequest = new PageParserRequest()
 			{
+				OrgCode = "Master",
+				Step = ExecutionStep.Select,
 				PageXDocument = File.ReadAllText(@"C:\D\Git\repo\static\pages\master\Form.xml")
 			};
 			aRequest.Params["gid"] = "form";

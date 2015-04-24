@@ -3,7 +3,21 @@
     <!-- Source can be request|query -->
     <Variable key="gid" source="param" value="form" />
   </Variables>
-  <HtmlForm>
+  <HtmlForm selectquery="SELECT PageCode, RelativePath FROM Page WHERE PageCode='form'" updatequery="UPDATE Page SET RelativePath=''" deletequery="DELETE FROM Page WHERE PageCode='form'">
     <!-- It contains fields, fieldset -->
+    <Field sid="PageCode" type="text" label="Page Code" required="true" value="form" />
+    <Field sid="RelativePath" type="text" label="Relative Path" required="true" value="/master/Form.xml" />
+    <Buttons>
+      <Button label="Add" event="click" renderinsteps="1">
+        <Script><![CDATA[
+					for(var count=0; count < 3; count++)
+					{
+						alert("Added");
+					}
+					]]></Script>
+      </Button>
+      <Button label="Update" renderinsteps="2" />
+      <Button label="Delete" renderinsteps="2,3" />
+    </Buttons>
   </HtmlForm>
 </Form>

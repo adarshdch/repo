@@ -1,8 +1,26 @@
 ﻿<Form>
-	<Variables> <!-- Source can be request|query -->
+	<Variables>
+		<!-- Source can be request|query -->
 		<Variable key="gid" source="param" />
 	</Variables>
-	<HtmlForm selectquery="" updatequery="" deletequery="" > <!-- It contains fields, fieldset -->
-		
+	<HtmlForm selectquery="SELECT PageCode, RelativePath FROM Page WHERE PageCode='[*gid*]'" updatequery="UPDATE Page SET RelativePath='[*form.RelativePath*]'" deletequery="DELETE FROM Page WHERE PageCode='[*gid*]'" >
+		<!-- It contains fields, fieldset -->
+		<Field sid="PageCode" type="text" label="Page Code" required="true"/>
+		<Field sid="RelativePath" type="text" label="Relative Path" required="true"/>
+		<Buttons>
+			<Button  label="Add" event="click" renderinsteps="1">
+				<Script>
+					<![CDATA[
+					for(var count=0; count < 3; count++)
+					{
+						alert("Added");
+					}
+					]]>
+				</Script>
+			</Button>
+			<Button  label="Update" renderinsteps="2"/>
+			<Button  label="Delete" renderinsteps="2,3"/>
+		</Buttons>
+
 	</HtmlForm>
 </Form>

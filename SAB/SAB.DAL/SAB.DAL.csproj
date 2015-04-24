@@ -30,12 +30,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="EntityFramework">
-      <HintPath>..\packages\EntityFramework.6.1.2\lib\net45\EntityFramework.dll</HintPath>
-    </Reference>
-    <Reference Include="EntityFramework.SqlServer">
-      <HintPath>..\packages\EntityFramework.6.1.2\lib\net45\EntityFramework.SqlServer.dll</HintPath>
-    </Reference>
     <Reference Include="Microsoft.Practices.EnterpriseLibrary.Common">
       <HintPath>..\packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45\Microsoft.Practices.EnterpriseLibrary.Common.dll</HintPath>
     </Reference>
@@ -58,24 +52,8 @@
   <ItemGroup>
     <Compile Include="EntLib\DbExtensions.cs" />
     <Compile Include="EntLib\DbFactory.cs" />
-    <Compile Include="Ef6\MasterDbContext.cs" />
-    <Compile Include="Ef6\OrgDbContextFactory.cs" />
     <Compile Include="EntLib\OrgDatabase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\SAB.Entities\SAB.Entities.csproj">
-      <Project>{040cee42-2052-430f-ab56-ae7a0389deb5}</Project>
-      <Name>SAB.Entities</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\SAB.Framework.DbRepository.Ef6\SAB.Framework.DbRepository.Ef6.csproj">
-      <Project>{f68a1d19-93fb-47c1-a22b-42bea3e4fd8c}</Project>
-      <Name>SAB.Framework.DbRepository.Ef6</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\SAB.Framework.DbRepository\SAB.Framework.DbRepository.csproj">
-      <Project>{6e682a14-c872-4813-b620-76e108dea683}</Project>
-      <Name>SAB.Framework.DbRepository</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

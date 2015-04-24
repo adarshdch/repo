@@ -15,6 +15,7 @@ namespace SAB.XmlPageParser
 			};
 
 			VariableParser.Parse(theRequest, aResponse);
+			QueryProcessor.Parse(theRequest, aResponse);
 
 
 			return aResponse;
