@@ -19,5 +19,9 @@ namespace SAB.XmlPageParser
 
 		public NameValueCollection Params { get; set; }
 
+
+		public string Xslt { get; set; }
+
+		public ContentType OutputType { get; set; }
 	}
 }

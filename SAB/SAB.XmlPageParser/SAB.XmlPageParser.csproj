@@ -47,8 +47,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Enumeration.cs" />
+    <Compile Include="Helper\Literals.cs" />
     <Compile Include="Helper\QueryProcessor.cs" />
     <Compile Include="Helper\VariableParser.cs" />
+    <Compile Include="Helper\XsltProcessor.cs" />
     <Compile Include="PageParser.cs" />
     <Compile Include="PageParserRequest.cs" />
     <Compile Include="PageParserResponse.cs" />

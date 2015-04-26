@@ -8,4 +8,12 @@ namespace SAB.XmlPageParser
 		Update = 2,
 		Delete = 3
 	}
+
+	public enum ContentType
+	{
+		FullXml,
+		FullHtml,
+		Json,
+		RawXml
+	}
 }

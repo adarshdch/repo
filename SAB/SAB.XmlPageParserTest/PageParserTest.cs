@@ -17,12 +17,14 @@ namespace SAB.XmlPageParserTest
 			{
 				OrgCode = "Master",
 				Step = ExecutionStep.Select,
-				PageXDocument = File.ReadAllText(@"C:\D\Git\repo\static\pages\master\Form.xml")
+				OutputType = ContentType.FullHtml,
+				PageXDocument = File.ReadAllText(@"C:\D\Git\repo\static\pages\master\Form.xml"),
+				Xslt = File.ReadAllText(@"C:\D\Git\repo\static\stylesheets\master\v1\Dojo_Form.xslt")
 			};
 			aRequest.Params["gid"] = "form";
 			var aResponse = aParse.Parse(aRequest);
 
-			File.WriteAllText(Path.Combine(UtilPath.TestOutputDirectory, "Form.xml"), aResponse.PageXDocument.ToString());
+			File.WriteAllText(Path.Combine(UtilPath.TestOutputDirectory, "Form.html"), aResponse.Output.ToString());
 		}
 	}
 }

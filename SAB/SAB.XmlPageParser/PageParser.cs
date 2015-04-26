@@ -16,7 +16,7 @@ namespace SAB.XmlPageParser
 
 			VariableParser.Parse(theRequest, aResponse);
 			QueryProcessor.Parse(theRequest, aResponse);
-
+			XsltProcessor.ApplyXslt(theRequest, aResponse);
 
 			return aResponse;
 		}
